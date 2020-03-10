@@ -18,6 +18,7 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* detoxappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* detoxappTests.m */; };
 		55CD96D229DAD0FD1B1E4832 /* libPods-detoxapp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A45175708FEE3BA3D9F923A /* libPods-detoxapp-tvOS.a */; };
+		839684FD2410FA3B007BB53F /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 839684FC2410FA3B007BB53F /* AppCenter-Config.plist */; };
 		BA9F191184CD6B3832E8E63D /* libPods-detoxapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAABA0BD3099FB5A8C9C4AF3 /* libPods-detoxapp.a */; };
 		EF2F8A1164772D459DE0B9EB /* libPods-detoxappTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 260CC4E23B5205C618E9A181 /* libPods-detoxappTests.a */; };
 /* End PBXBuildFile section */
@@ -60,6 +61,7 @@
 		66BDA6C62B4F8BA548C67A85 /* Pods-detoxapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-detoxapp.release.xcconfig"; path = "Target Support Files/Pods-detoxapp/Pods-detoxapp.release.xcconfig"; sourceTree = "<group>"; };
 		6E39FDE4D8C778859436579D /* Pods-detoxapp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-detoxapp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-detoxapp-tvOS/Pods-detoxapp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		784ED07FA446A4F1B236D443 /* Pods-detoxappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-detoxappTests.release.xcconfig"; path = "Target Support Files/Pods-detoxappTests/Pods-detoxappTests.release.xcconfig"; sourceTree = "<group>"; };
+		839684FC2410FA3B007BB53F /* AppCenter-Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppCenter-Config.plist"; sourceTree = "<group>"; };
 		90BB771739229843CE05C2D7 /* Pods-detoxapp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-detoxapp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-detoxapp-tvOSTests/Pods-detoxapp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AAABA0BD3099FB5A8C9C4AF3 /* libPods-detoxapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-detoxapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B33674E32036892F8A809C83 /* Pods-detoxapp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-detoxapp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-detoxapp-tvOS/Pods-detoxapp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				839684FC2410FA3B007BB53F /* AppCenter-Config.plist */,
 				13B07FAE1A68108700A75B9A /* detoxapp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* detoxappTests */,
@@ -342,6 +345,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				839684FD2410FA3B007BB53F /* AppCenter-Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
